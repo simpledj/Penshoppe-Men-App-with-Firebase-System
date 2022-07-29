@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    tools:context=".activities.PlaceOrderActivity">
+
+    <TextView
+        android:id="@+id/placeorderheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Order Has Been Placed"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:fontFamily="@font/lato_bold"
+        android:layout_above="@+id/placeimage"
+        android:layout_marginBottom="30dp"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/placeimage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/placedorder"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you for purchasing our product \n Please Come Again"
+        android:textColor="#f01737"
+        android:textSize="18sp"
+        android:fontFamily="@font/lato_regular"
+        android:textAlignment="center"
+        android:layout_below="@+id/placeimage"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

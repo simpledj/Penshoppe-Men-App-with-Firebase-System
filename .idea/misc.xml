@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/edittext_background.xml" value="0.327" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/ic_baseline_category_24.xml" value="0.27" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.27" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.27" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.243" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.243" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.243" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/searchbox.xml" value="0.327" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/side_nav_bar.xml" value="0.2735" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/drawable/signupbtn.xml" value="0.327" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/accessories_item.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_accessories.xml" value="0.3875" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_accessories_detailed.xml" value="0.3203125" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_allproducts.xml" value="0.3203125" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_bottoms.xml" value="0.3875" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_bottoms_detailed.xml" value="0.3203125" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_detailed.xml" value="0.22" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_main.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_main2.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_place_order.xml" value="0.33" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_splashscreen.xml" value="0.19047619047619047" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_tops.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/allproducts_item.xml" value="0.25" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/app_bar_main.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/app_bar_main2.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/bottoms_item.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/content_main.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/content_main2.xml" value="0.33" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/fragment_accessories.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/fragment_bottoms.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/fragment_my_cart.xml" value="0.29635416666666664" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/fragment_profile.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/fragment_tops.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/hoodies_item.xml" value="0.33" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/imageslide.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/mycart_item.xml" value="0.3875" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/nav_header_main.xml" value="0.33" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/nav_header_main2.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/pants_item.xml" value="0.30833333333333335" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/popular_item.xml" value="0.25" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/stops_item.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/tops_half_detail.xml" value="0.3203125" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/tops_item.xml" value="0.33" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/menu/activity_main_drawer.xml" value="0.31302083333333336" />
+        <entry key="..\:/Users/djvll/AndroidStudioProjects/MyApplication4/app/src/main/res/menu/main_activity2.xml" value="0.3234375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

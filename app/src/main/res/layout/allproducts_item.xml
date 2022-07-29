@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#EFEFEF"
+    android:elevation="4dp"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:orientation="horizontal"
+        android:background="#EFEFEF"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/all_img"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/shorts1_1"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="5dp"
+            android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/all_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modern Fit Denim Shorts"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lato_regular"
+                android:textSize="20sp"
+                android:layout_below="@+id/all_img"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/all_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₱799.00"
+                android:textColor="@color/black"
+                android:fontFamily="@font/lato_bold"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/all_name"/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/all_price"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="@string/description"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/removeitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_remove_circle_outline_24"
+            android:layout_below="@+id/description"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="40dp"
+            android:text="1"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/lato_regular"/>
+
+        <ImageView
+            android:id="@+id/additem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_add_circle_outline_24"
+            android:layout_below="@+id/description"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp"/>
+
+        <Button
+            android:id="@+id/addtocart"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/description"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Add to cart"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_regular"
+            android:textSize="12sp"
+            android:background="@drawable/signupbtn"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Penshoppe Men</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_name">PENSHOPPE</string>
+    <string name="nav_header_email">Your guide to everyday fashion.</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_exit">Logout</string>
+    <string name="menu_cart">Cart</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="description"><![CDATA[HIGHLIGHTS: Relaxed Fit, Graphic Print, Single Jersey, Circular Knit, & Single Jersey - 60% Cotton 40% Polyester]]></string>
+
+</resources>

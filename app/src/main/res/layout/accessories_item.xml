@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="240dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:background="@color/white"
+    app:cardCornerRadius="15dp"
+    app:cardBackgroundColor="#B80F0A">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="240dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/acc_img"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            app:riv_corner_radius="14dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cap1_1"/>
+
+        <TextView
+            android:id="@+id/acc_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Colorblock Hoodie with Branding"
+            android:textColor="@color/white"
+            android:singleLine="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

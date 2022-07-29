@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "397415160697",
+    "project_id": "penshoppe-men",
+    "storage_bucket": "penshoppe-men.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397415160697:android:e6e8b2884d70e967dc2da8",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397415160697-v2s7jqt7i2c2saaplrq9ro9mbifj1oiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrfB5vXiZnnpmrGP_Iv_8rzeHTrF4yejc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397415160697-v2s7jqt7i2c2saaplrq9ro9mbifj1oiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

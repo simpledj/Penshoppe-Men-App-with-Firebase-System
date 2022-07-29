@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".activities.DetailedActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="625dp">
+
+        <ImageView
+            android:id="@+id/prodimg"
+            android:layout_width="370dp"
+            android:layout_height="350dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tshirt1_1" />
+
+        <TextView
+            android:id="@+id/prodname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prodimg"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="Athletics Patch Relaxed Fit Tee"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/prodprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prodname"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="₱249.00"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@+id/prodprice"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/highlights"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="@string/description"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/removeitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_remove_circle_outline_24"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/additem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="55dp"
+            android:src="@drawable/ic_baseline_add_circle_outline_24" />
+
+        <Button
+            android:id="@+id/addtocart"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Add to cart"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_regular"
+            android:textSize="12sp"
+            android:background="@drawable/signupbtn"/>
+
+    </RelativeLayout>
+</ScrollView>

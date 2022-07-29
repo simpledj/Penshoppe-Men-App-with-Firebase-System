@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/centerhorizontalline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <RelativeLayout
+            android:id="@+id/centerverticalline"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardCornerRadius="20dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/pagetitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="MEN'S CLOTHING"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pagetitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Always look your best with our freshest range of Penshoppe Men's Clothing. Each item here has been made to match your any time, every day vibe that allows you to look effortlessly fashion forward. Multiple payment options available. We ship out with your convenience in mind."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/txttop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_regular"
+            android:text="TOPS"
+            android:letterSpacing=".2"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_below="@+id/subtitle"
+            android:layout_marginTop="20dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclertop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txttop"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/txtbottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_regular"
+            android:text="BOTTOMS"
+            android:letterSpacing=".2"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_below="@+id/recyclertop"
+            android:layout_marginTop="20dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerbottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtbottom"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/txtaccessories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_regular"
+            android:text="ACCESSORIES"
+            android:letterSpacing=".2"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_below="@+id/recyclerbottom"
+            android:layout_marginTop="20dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleraccessories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtaccessories"
+            android:layout_marginTop="10dp" />
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/imageslider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/searchbox"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderScrollTimeInSec="5"
+            app:sliderStartAutoCycle="true" />
+
+    </RelativeLayout>
+
+</ScrollView>
